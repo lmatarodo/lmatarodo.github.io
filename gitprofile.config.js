@@ -41,17 +41,17 @@ const config = {
   ],
   experiences: [
     {
-      Studied: 'Data Structure',
+      company: 'Data Structure',
       from: 'September 2020',
       to: 'December 2020',
     },
     {
-      Studied: 'System Programming',
+      company: 'System Programming',
       from: 'March 2023',
       to: 'June 2023',
     },
      {
-      Studied: 'Algorithm',
+      company: 'Algorithm',
       from: 'March 2023',
       to: 'June 2023',
     },
@@ -92,8 +92,8 @@ const config = {
   ], */
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
