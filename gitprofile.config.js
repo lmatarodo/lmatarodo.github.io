@@ -27,6 +27,11 @@ const config = {
     phone: '',
     email: 'lmatarodo@naver.com',
   },
+  about: {
+    title: 'Self Introduction',
+    description: 'Elementary Developer from South Korea',
+  },
+
   resume: {
     fileUrl:
       '', // Empty fileUrl will hide the `Download Resume` button.
