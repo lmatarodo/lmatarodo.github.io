@@ -25,7 +25,7 @@ const config = {
     telegram: '',
     website: 'https://arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'lmatarodo@naver.com',
   },
   resume: {
     fileUrl:
