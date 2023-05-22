@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -41,18 +41,19 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      Studied: 'Data Structure',
+      from: 'September 2020',
+      to: 'December 2020',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      Studied: 'System Programming',
+      from: 'March 2023',
+      to: 'June 2023',
+    },
+     {
+      Studied: 'Algorithm',
+      from: 'March 2023',
+      to: 'June 2023',
     },
   ],
   /* certifications: [
@@ -65,21 +66,15 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Sungkyunkwan University',
+      degree: 'Bachelor',
+      from: '2020',
+      to: '',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+ /* externalProjects: [
     {
       title: 'Project Name',
       description:
@@ -94,7 +89,7 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-  ],
+  ], */
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
